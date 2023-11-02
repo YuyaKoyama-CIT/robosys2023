@@ -1,11 +1,17 @@
 # plusコマンド
 [![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml)
 
-標準入力から読み込んだ数字を足す
+標準入力から読み込んだ数字を足す。
 
 ## 必要なソフトウェア
 *python
 	*テスト済み :3.7~3.10
+
+##使い方
+
+##どんな環境で使用できるか
+
+##テスト結果
 
 ## テスト環境
 *Ubuntu
