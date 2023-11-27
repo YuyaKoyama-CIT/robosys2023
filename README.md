@@ -2,10 +2,10 @@
 
 このリポジトリはロボットシステム学の学習のため制作したものである
 
-#インストール方法
+# インストール方法
 
 このリポジトリをクローンして使用
-git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
+'''git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
 
 # 必要なソフトウェア
  
@@ -13,6 +13,7 @@ git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
         *テスト済み :3.7~3.10
 
 # plusコマンド
+
 [![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml)
 
 標準入力から読み込んだ数字を足す。
