@@ -1,5 +1,5 @@
 # robosys2023
-[![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)]
+![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)
 
 このリポジトリはロボットシステム学の学習のため制作したものである
 
@@ -11,7 +11,6 @@
 ```
 git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
 chmod +x <ファイル名>
-./<ファイル名>
 ```
 
 # 必要なソフトウェア
