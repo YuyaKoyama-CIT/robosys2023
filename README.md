@@ -1,23 +1,25 @@
 # robosys2023
+[![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuyaKoyama-CIT/r    obosys2023/actions/workflows/test.yml)
 
 このリポジトリはロボットシステム学の学習のため制作したものである
 
 # インストール方法
 
 このリポジトリをクローンして使用
+使用する際には実行権限を与えてください
 
 ```
 git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
+chmod +x <ファイル名>
+./<ファイル名>
 ```
 
 # 必要なソフトウェア
  
 *python
-        *テスト済み :3.7~3.10
+        *テスト済み :Ver.3.7~3.10
 
 # plusコマンド
-
-[![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml)
 
 標準入力から読み込んだ数字を足す。
 
@@ -38,14 +40,18 @@ git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
 *python
 	*テスト済み :3.7~3.10
 
-
 ## どんな環境で使用できるか
+
 *Ubuntu
+
 ## テスト結果
 
 ## テスト環境
+
 *Ubuntu
+
 ## 著作権・ライセンス
+
 *このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
   *© 2023 Yuya Koyama
 
