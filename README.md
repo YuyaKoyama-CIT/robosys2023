@@ -1,5 +1,5 @@
 # robosys2023
-[![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuyaKoyama-CIT/r    obosys2023/actions/workflows/test.yml)
+[![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)]
 
 このリポジトリはロボットシステム学の学習のため制作したものである
 
