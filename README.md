@@ -59,14 +59,14 @@ seq 5 | ./plus | ./sin
 
 ## テスト環境
 
-*Ubuntu 22.04.3 LTS
+* Ubuntu 22.04.3 LTS
 
 ## 著作権・ライセンス
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
-  * © 2023 Yuya Koyama
+* © 2023 Yuya Koyama
 
-  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-	* [ryuichiueda/my_slides robosys_2022 lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+  * [ryuichiueda/my_slides robosys_2022 lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
   * © 2023 Ryuichi Ueda
