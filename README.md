@@ -23,19 +23,27 @@ git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
 ## 使用方法
 
 ```
-seq 5 | ./plus
+$ seq 5 | ./plus
+15
 ```
-
 # minusコマンド
 
 標準入力から読み込んだ数字を引く。
 ## 使用方法
 
+```
+$ seq 5 | ./minus
+-15
+```
 # mulコマンド
 
 標準入力から読み込んだ数字を掛ける。
 ## 使用方法
 
+```
+$ seq 5 | ./mul
+120
+```
 ## 必要なソフトウェア
 
 *python
