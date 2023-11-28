@@ -1,7 +1,8 @@
 # robosys2023
 ![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)
 
-このリポジトリはロボットシステム学の学習のため制作したものである
+このリポジトリはロボットシステム学の学習のため制作したものです。
+計算をするための足し算、引き算、掛け算、sinの計算をするためのコマンドを製作しました。
 
 # インストール方法
 
@@ -20,6 +21,10 @@ git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
 
 標準入力から読み込んだ数字を足す。
 ## 使用方法
+
+```
+seq 5 | ./plus
+```
 
 # minusコマンド
 

@@ -3,12 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
+import math
 
 ans = 0
 for line in sys.stdin:
     try:
-        ans += int(line)
+        print(math.sin(math.radians(int(line))))
     except:
-        ans += float(line)
-
-print(ans)
+        print(math.sin(math.radians(float(line))))

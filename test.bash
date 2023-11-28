@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2023 Yuya Kyama
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -20,34 +20,71 @@ out=$(seq 5 | ./plus)
 out=$(seq 5 | ./minus)
 [ "${out}" = -15 ] || ng ${LINENO}
 
-### STRANGE INPUT ###
 
+#mul
+out=$(seq 5 | ./mul)
+[ "${out}" = 120] || ng${LINENO}
+
+
+#sin
+out=$(seq 1 | ./sin)
+[ "${out}" = 0.01745240643728351 ] || ng ${LINENO}
+
+
+### STRANGE INPUT ###
+ 
 #plus
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　 
+
+out=$(echo @ | ./plus)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
 
 #minus
-out=$(echo あ | ./plus)
+out=$(echo あ | ./minus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　 
-out=$(echo | ./plus) #空文字
+
+out=$(echo @ | ./minus)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./minus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
 
 #mul
-out=$(echo あ | ./plus)
+out=$(echo あ | ./mul)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-    　 
-out=$(echo | ./plus) #空文字
+
+out=$(echo @ | ./mul)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./mul) #空文字
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+
+#sin
+out=$(echo あ | ./sin)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo @ | ./sin)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./sin) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
