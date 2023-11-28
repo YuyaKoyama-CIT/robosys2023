@@ -15,7 +15,7 @@ git clone git@github.com:YuyaKoyama-CIT/robosys2023.git
 
 # 必要なソフトウェア
  
-*python
+*Python
         *テスト済み :Ver.3.7~3.10
 
 # plusコマンド
