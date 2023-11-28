@@ -2,7 +2,8 @@
 ![test](https://github.com/YuyaKoyama-CIT/robosys2023/actions/workflows/test.yml/badge.svg)
 
 このリポジトリはロボットシステム学の学習のため制作したものです。
-計算をするための足し算、引き算、掛け算、sinの計算をするためのコマンドを製作しました。
+
+計算をするための足し算、引き算、掛け算、sinの計算をするためのコマンドを制作しました。
 
 # インストール方法
 
@@ -44,10 +45,17 @@ $ seq 5 | ./minus
 $ seq 5 | ./mul
 120
 ```
+# sinコマンド
+
+標準入力から読み込んだ値のsin値を計算する
+```
+seq 1 | ./sin
+0.01745240643728351
+```
 ## 必要なソフトウェア
 
 *python
-	*テスト済み :3.7~3.10
+	*テスト済み :Ver.3.7~3.10
 
 ## どんな環境で使用できるか
 
@@ -55,7 +63,7 @@ $ seq 5 | ./mul
 
 ## テスト環境
 
-*Ubuntu
+*Ubuntu Ver.3.7~3.10
 
 ## 著作権・ライセンス
 
@@ -63,5 +71,5 @@ $ seq 5 | ./mul
   *© 2023 Yuya Koyama
 
   *このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-      * [ryuichiueda/my_slides robosys_2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)
+      * [ryuichiueda/my_slides robosys_2023](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
   *© 2023 Ryuichi Ueda
