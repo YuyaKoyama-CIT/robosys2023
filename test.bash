@@ -23,12 +23,12 @@ out=$(seq 5 | ./minus)
 
 #mul
 out=$(seq 5 | ./mul)
-[ "${out}" = 120] || ng${LINENO}
+[ "${out}" = 120 ] || ng ${LINENO}
 
 
 #sin
-out=$(seq 1 | ./sin)
-[ "${out}" = 0.01745240643728351 ] || ng ${LINENO}
+out=$(seq 5 | ./plus | ./sin)
+[ "${out}" = 0.25881904510252074 ] || ng ${LINENO}
 
 
 ### STRANGE INPUT ###
