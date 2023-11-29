@@ -15,6 +15,9 @@ res=0
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
+#sin
+out=$(seq 5 | ./plus | ./sin)
+[ "${out}" = 0.25881904510252074 ] || ng ${LINENO}
 
 #minus
 out=$(seq 5 | ./minus)
