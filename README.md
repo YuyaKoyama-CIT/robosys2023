@@ -25,7 +25,7 @@ $ seq 5 | ./plus
 ```
 また、catコマンドを使用することでファイル内の任意の数字を足し合わせることもできる
 ```
-#nums 任意の数字
+#nums：任意の数字
 2
 2
 1
@@ -78,11 +78,14 @@ seqコマンドで出力された1~5を足し合わせ，合計値でのsinを�
 seq 5 | ./plus | ./sin
 0.25881904510252074
 ```
-
+```
+plusで示したものと同様に、catコマンドを使用することでファイル内の任意の数字のsin値を求めることができる
+$ cat nums | ./plus | ./sin
+```
 ## 必要なソフトウェア
 
 * python
-	* テスト済み :Ver.3.7~3.10
+	* テスト済み :3.7~3.10
 
 ## テスト環境
 
@@ -93,6 +96,5 @@ seq 5 | ./plus | ./sin
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
   * [ryuichiueda/my_slides/robosys_2022/lesson4](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
-  * © 2023 Ryuichi Ueda
 
 © 2023 Yuya Koyama
