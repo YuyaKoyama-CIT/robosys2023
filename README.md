@@ -23,6 +23,20 @@ seqコマンドで出力された1~5を足す
 $ seq 5 | ./plus
 15
 ```
+また、catコマンドを使用することでファイル内の任意の数字を足し合わせることもできる
+```
+#nums 任意の数字
+2
+2
+1
+0
+4
+8
+```
+
+```
+$ cat nums | ./plus
+```
 ## minus
 
 標準入力から読み込んだ数字を引く。
@@ -33,6 +47,11 @@ seqコマンドで出力された1~5を引く
 $ seq 5 | ./minus
 -15
 ```
+plusと同様に、catコマンドを使用することでファイル内の任意の数字を引くこともできる
+```
+$ cat nums | ./minus
+-17
+```
 ## mul
 
 標準入力から読み込んだ数字を掛ける。
@@ -42,6 +61,11 @@ seqコマンドで出力された1~5を掛ける
 ```
 $ seq 5 | ./mul
 120
+```
+plusやminusと同様に、catコマンドを使用することでファイル内の任意の数字を掛けることもできる
+```
+$ cat nums | ./mul
+0
 ```
 ## sin
 
@@ -66,8 +90,8 @@ seq 5 | ./plus | ./sin
 ## 著作権・ライセンス
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-  * [ryuichiueda/my_slides robosys_2022 lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
+* このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+  * [ryuichiueda/my_slides/robosys_2022/lesson4](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
   * © 2023 Ryuichi Ueda
 
 © 2023 Yuya Koyama
