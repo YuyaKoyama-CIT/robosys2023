@@ -36,6 +36,7 @@ $ seq 5 | ./plus
 
 ```
 $ cat nums | ./plus
+17
 ```
 ## minus
 
